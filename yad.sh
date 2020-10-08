@@ -3,7 +3,7 @@
 action=$(yad --width 300 --entry --title "System Logout" \
     --image=gnome-shutdown \
     --button="Switch User:2" \
-    --button="gtk-ok:0" --button="gtk-close:1" \
+    --button="Okay:0" --button="Close:1" \
     --text "Choose action:" \
     --entry-text \
     "Power Off" "Reboot" "Suspend" "Logout")
